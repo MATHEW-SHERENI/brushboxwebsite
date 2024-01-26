@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrushBox Enterprises</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+            
+           font-weight: 600;
+           font-size: medium;
+           color: black;
+        }
+        header {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+       
+        
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: blue;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+.whatsapp-button {
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+#products {
+    text-align: center;
+    background-image: url('back1.jpg');
+    color: #000;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex: 0 0 35%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s;
+}
+.product:hover {
+            transform: scale(1.05);
+        }
+
+.product h3 {
+    color: #333;
+}
+
+.product p {
+    color: black;
+}
+
+
+#services {
+    text-align: center;
+    background-color: blue;
+    color: #000;
+}
+
+.service h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 0 0 26%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e6e6ee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    color: #333;
+}
+.service:hover {
+            transform: scale(1.05);
+        }
+
+.service p {
+    color: black;
+}
+marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: red;
+      font-family: sans-serif;
+      }
+      #contact {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+    </style>
+</head>
+
+<header>
+    <div class="container">
+        <img src="logo.jpg" alt="BrushBox Investments Logo" height="80">
+        <h1>BrushBox Enterprises</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Brushbox Enterprises is a leading supplier of industrial raw materials and hardware supplies. Our extensive range of products includes np9, np6, caustic soda, formalin sulfonic acid, sles, as well as finished products like car shampoo and dishwashing liquid. We are dedicated to providing high-quality materials to meet the needs of various industries, and our commitment to excellence sets us apart in the market.
+            BrushBox Enterprises is a supplier of industrial chemicals and hardware supplies. We are located at Shop
+            Number E4, Sunshine Bazaar, along Simon Mazorodze Road.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We are committed to providing top-quality industrial raw materials and hardware supplies to meet your business needs. Contact us today to inquire about our products, place an order, or request more information. We look forward to serving you and your business!
+            For inquiries or more information, visit us at Shop Number E4, Sunshine Bazaar, along Simon Mazorodze Road.
+            You can also reach us at the following contact numbers: 0713697999, 0771717535.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2></section>
+    <section id="services" class="services-container">
+    
+        <div class="service">
+            <h3>Expertise in Industrial Raw Materials</h3>
+            <p>At BrushBox Enterprises, we pride ourselves on our extensive knowledge of industrial raw materials and hardware supplies. Our expertise in the chemical industry allows us to offer top-quality products to our customers, ensuring their satisfaction and success in their own businesses.</p>
+        </div>
+    
+        <div class="service">
+            <h3>Reliability and Professionalism</h3>
+            <p>Our commitment to reliability and professionalism sets us apart in the industry. Customers can always count on us to deliver on our promises, providing them with the products they need, when they need them.</p>
+        </div>
+    
+        <div class="service">
+            <h3>Transparency and Integrity</h3>
+            <p>Transparency is at the core of our business values. We believe in open communication, honesty, and integrity in all our dealings with clients, suppliers, and partners. This approach has earned us the trust and respect of those we work with.</p>
+        </div>
+    </section>
+    
+    
+
+    <section id="products">
+        <h2>Products</h2>
+        <div class="product-info">
+            <div class="product">
+                <h3>Industrial Raw Materials</h3>
+                <p>Brushbox Enterprises provides top-notch industrial raw materials for manufacturing, including NP9 and NP6. These materials are essential for a wide range of industrial applications.</p>
+            </div>
+    
+            <div class="product">
+                <h3>Finished Products</h3>
+                <p>At Brushbox Enterprises, we offer a diverse selection of finished products, including car shampoo, dishwashing liquid, and toilet detergent, all designed to meet the highest quality standards.</p>
+            </div>
+    
+            <div class="product">
+                <h3>Quality Raw Materials</h3>
+                <p>We offer a wide range of industrial raw materials, including caustic soda, formalin sulfonic acid, and SLES. Our high-quality products are essential for various manufacturing processes.</p>
+            </div>
+    
+            <div class="product">
+                <h3>Hardware Supplies</h3>
+                <p>In addition to raw materials, we also supply hardware supplies such as nuts, bolts, screws, and other essential components for industrial projects.</p>
+            </div>
+        </div>
+        <marquee> <p>NP9 , SLES , SULPHONIC ACID , FORMALINE , DISHWASHER , TOILET DIP, CHANNEL BLOCKS, CARBIDE STONES ,CAUSTIC SODA ,</p></marquee>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us Today</h2>
+        <p>For any inquiries or to place an order, please feel free to contact us at Brushbox Enterprises. We are dedicated to providing top-quality industrial raw materials and hardware supplies to businesses and individuals. Let us help you find the right products for your needs. Reach out to us today and discover how we can support your projects and operations.</p>
+    
+        <div class="contact-form">
+            <h3>Send us an Email</h3>
+            <form action="#" method="post" id="emailForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Send Email</button>
+            </form>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Contact Details</h3>
+                <p>BrushBox Enterprises<br>
+                    Shop E4, Sunshine Bazaar<br>
+                    Simon Mazorodze Road<br>
+                    Harare, Zimbabwe</p>
+                <p>Contact Person: Mr L Chikwangwani</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Downloadable Documents</h3>
+                <ul>
+                    <li><a href="text-clearance.pdf" target="_blank">Text Clearance Form</a></li>
+                    <!-- Add more downloadable documents as needed -->
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>WhatsApp</h3>
+                <p>Contact Mr L Chikwangwani on WhatsApp:</p>
+                <a href="https://wa.me/263772252305" target="_blank" class="whatsapp-button">Message Now</a>
+            </div>
+        </div>
+    
+    
+    
+        &copy; 2024 BrushBox Investments. All rights reserved.                      Site done by Mathew Shereni
+        
+    </footer>
+
+    <script>
+        // JavaScript for the product image slideshow
+        let currentIndex = 0;
+        const images = document.querySelectorAll('#product-slider img');
+
+        function showNextImage() {
+            images[currentIndex].style.display = 'none';
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].style.display = 'block';
+        }
+
+        // Set an interval to switch images every 3 seconds
+        setInterval(showNextImage, 3000);
+    </script>
+
+</body>
+
+</html>
